@@ -1,10 +1,23 @@
 $(document).ready(function() {
-  $("button").click(function(event) {
+  $("form#form1").submit(function(event) {
     event.preventDefault();
-      var selector =$(#selector).val();
+      var animal =$("#animal").val();
       if(selector === "cheetah") {
-        $(.cheetah).show();
-      }
+        $('#cheetah').show();
+        $('.bobcat').hide();
+        $('.tiger').hide();
+      } else if (selector === "bobcat") {
+        $('.cheetah').hide();
+        $('.bobcat').show();
+        $('.tiger').hide();
+      } else if (selector === "tiger")
+      $('.cheetah').hide();
+      $('.bobcat').hide();
+      $('.tiger').show();
+    }
+
+      });
+  });
 
 
 //     var answer = $("input:checked").val();
