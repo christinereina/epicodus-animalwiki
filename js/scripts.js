@@ -1,6 +1,12 @@
 $(document).ready(function() {
-  $("input").click(funtion(event) {
+  $("button").click(function(event) {
     event.preventDefault();
-    var animal = $("input:radio[name=animal]:checked").val();
-  });
-});
+
+    
+//     var answer = $("input:checked").val();
+//       return answer.show(function();
+//     });
+//     console.log(answer.get());
+// });
+
+// // 
