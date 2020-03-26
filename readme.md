@@ -1,4 +1,4 @@
-# [Big WILD Cats](https://christinereina.github.io/amusement-park/)
+# [Big WILD Cats](https://christinereina.github.io/epicodus-animalwiki/)
 
 #### Epicodus Week Two | Introduction to Programming JavaScript and jQuery Practice: Branching, 03.26.2020
 
