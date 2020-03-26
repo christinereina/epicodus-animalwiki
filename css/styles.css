@@ -1,0 +1,27 @@
+/* .cheetah-hidden {
+  display: none; 
+}
+
+.bobcat-hidden {
+  display: none;
+}
+
+.tiger-hidden {
+  display: none;
+} */
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+p {
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
