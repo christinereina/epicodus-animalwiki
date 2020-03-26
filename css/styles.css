@@ -4,15 +4,15 @@ body {
   background-size: 100%;
 }
 
-.cheetah-hidden {
+.cheetah {
   display: none; 
 }
 
-.bobcat-hidden {
+.bobcat {
   display: none;
 }
 
-.tiger-hidden {
+.tiger {
   display: none;
 }
 
