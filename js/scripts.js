@@ -1,29 +1,21 @@
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
-      var animal =$("#animal").val();
+      var selector =$("#selector").val();
+      console.log(selector)
       if(selector === "cheetah") {
-        $('#cheetah').show();
+        $('.cheetah').toggle();
         $('.bobcat').hide();
         $('.tiger').hide();
       } else if (selector === "bobcat") {
         $('.cheetah').hide();
-        $('.bobcat').show();
+        $('.bobcat').toggle();
         $('.tiger').hide();
-      } else if (selector === "tiger")
+      } else if (selector === "tiger") {
       $('.cheetah').hide();
       $('.bobcat').hide();
-      $('.tiger').show();
+      $('.tiger').toggle();
     }
 
       });
   });
-
-
-//     var answer = $("input:checked").val();
-//       return answer.show(function();
-//     });
-//     console.log(answer.get());
-// });
-
-// // 
